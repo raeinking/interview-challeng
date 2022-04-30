@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(./imgs/pexels-no-name-66997.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+p {
+    font-size:15px;
+    opacity: 0.5
+}
+
+
+.todo {
+    background-color: rgb(221, 221, 221);
+    margin: 5px 5px 5px 5px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    flex: 1;
+    min-width:300px;
+    max-width: 500px;
+    height: 100%;
+
+}
+.headtodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.threedot {
+    width: 15px;
+    object-fit: contain;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.maintodo {
+    background-color:white;
+    padding: 10px ;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+.bomain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(235, 154, 48);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    object-fit: contain;
+    height: 20px;
+    margin:0 10px;
+} 
+
+.botom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.botom img {
+    object-fit: contain;
+    height: 20px;
+}
+
+.addcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.clock {
+    background-color:rgb(98, 175, 53);
+    padding: 5px 10px 5px 0;
+    display: flex;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.clock img {
+    color :blue;
+}
+
+.lists {
+    height: 100vh;
+    max-height: 500px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boom {
+    position:absolute;
+    height: 100vh;
+    min-width: 100vh;
+    min-width: 600px;
+    min-height: 100vh;
+    background-color: rgb(221, 221, 221);
+    z-index: 1;
+    left: 0%;
+    right: 0%;
+    padding: 15px;
+}
+.boom p {
+    font-size:15px;
+    opacity: 0.7
+}
+
+.boom img {
+    object-fit: contain;
+    width: 25px;
+    margin-right: 10px;
+}
+#close {
+    cursor: pointer;
+}
+
+.headboom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.bomleft {
+    display: flex;
+    align-items: center;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+}
+.member {
+    margin-left: 35px;
+}
